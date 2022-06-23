@@ -13,4 +13,9 @@ public class Bird extends Pets {
     }
 
     //TODO put your overloads for eatSeeds() here
+    
+    
+    public static void main(String[] args){
+
+    }
 }
