@@ -12,7 +12,7 @@ graph TD;
 ```
 
 # Step 1 -- Altering Cat
-In the previous lab, in order to get the Cat's badName to show up when using getName(), we had to overwrite it. But what if we only wanted to know the Cat's normal name? For this step, replace your `@Override` for getName() in cat with an overload that takes a String parameter for the badName. We will still be returning this one in the same way as the overridden version, where we return "[name] aka [badname]". For an example of overloading, see below:
+In the previous lab, in order to get the Cat's badName to show up when using getName(), we had to overwrite it. But what if we only wanted to know the Cat's normal name? For this step, overload getName(String) so that this new one takes a String parameter for the badName. We will still be returning this one in the same way as the overridden version, where we return "[name] aka [badname]". For an example of overloading, see below:
 ```java
 public double multiply(int x, int y) {
     return x * y * 1.0;
