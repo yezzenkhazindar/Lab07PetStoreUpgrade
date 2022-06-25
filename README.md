@@ -3,12 +3,35 @@ Polymorphism Application Lab
 
 Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
 ```mermaid
-graph TD;
-    A[Pets]--> E(get/setName, get/setBreed, makeNoise);
-    E --> B[Cat];
-    E --> C[Dog] -->G(playFetch);
-    E --> D[Hamster] --> H(wheelRun);
-    E --> I[Bird] --> J(eatSeeds);
+classDiagram
+    Pets <|-- Cat
+    Pets <|-- Dog
+    Pets <|-- Hamster
+    Pets <|-- Bird
+    
+    class Pets{
+    -String : name
+    -String : breed
+    getName() String
+    setName() String
+    getBreed() String
+    setBreed() String
+    makeNoise() String
+    }
+    class Cat{
+    -String : badName
+    }
+    class Dog{
+    playFetch(int num) String
+    }
+    class Hamster{
+    wheelRun(String[] run) boolean
+    }
+    class Bird{
+    eatSeeds() String
+    eatSeeds(boolean b) String
+    eatSeeds(int i) String
+    }
 ```
 
 # Step 1 -- Altering Cat
