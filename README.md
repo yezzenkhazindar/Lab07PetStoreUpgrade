@@ -17,7 +17,7 @@ In the previous lab, in order to get the Cat's badName to show up when using get
 public double multiply(int x, int y) {
     return x * y * 1.0;
 }
-public doube multiply(double x, double y){          //As you can see, the only thing that changes about the method's "signature" is the parameters
+public double multiply(double x, double y){          //As you can see, the only thing that changes about the method's "signature" is the parameters
     return x * y;
 }
 
