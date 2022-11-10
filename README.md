@@ -4,11 +4,11 @@ Polymorphism Application Lab
 Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
 ```mermaid
 graph TD;
-    A[Pets]--> E(get/setName, get/setBreed, makeNoise);
-    E --> B[Cat];
-    E --> C[Dog] -->G(playFetch);
-    E --> D[Hamster] --> H(wheelRun);
-    E --> I[Bird] --> J(eatSeeds);
+    A{Pets}--> E(get/setName, get/setBreed, makeNoise);
+    E --> B{Cat};
+    E --> C{Dog} -->G(playFetch);
+    E --> D{Hamster} --> H(wheelRun);
+    E --> I{Bird} --> J(eatSeeds);
 ```
 
 # Step 1 -- Altering Cat
