@@ -1,7 +1,7 @@
 # Lab07PetStoreUpgrade
 Polymorphism Application Lab
 
-Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
+Model for Inheritance (Where the curved boxes represent are the functions and the diamonds are the classes)
 ```mermaid
 graph TD;
     A{Pets}--> E(get/setName, get/setBreed, makeNoise);
