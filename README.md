@@ -11,6 +11,14 @@ graph TD;
     E --> I{Bird} --> J(eatSeeds);
 ```
 
+# Step 0 -- Setting Up Your Files
+**DO NOT SKIP THIS STEP**
+Since we skipped Lab04, you will need to replace the blank java files: Hamster.java, Cat.java, Dog.java, Pets.java
+
+With the provided solutions stored in Lab07_Starting_Classes.zip 
+
+You may find it easier to simply copy and paste the solutions in github, rather than moving around the files.
+
 # Step 1 -- Altering Cat
 In the previous lab, in order to get the Cat's badName to show up when using getName(), we had to overwrite it. But what if we only wanted to know the Cat's normal name? For this step, overload getName(String) so that this new one takes a String parameter for the badName. We will still be returning this one in the same way as the overridden version, where we return "[name] aka [badname]". For an example of overloading, see below:
 ```java
