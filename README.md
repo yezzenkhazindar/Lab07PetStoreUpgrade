@@ -15,7 +15,7 @@ graph TD;
 **DO NOT SKIP THIS STEP**
 Since we skipped Lab04, you will need to replace the blank java files: Hamster.java, Cat.java, Dog.java, Pets.java
 
-With the provided solutions stored in Lab07_Starting_Classes.zip 
+With the provided solutions stored in Lab07_Starting_Classes folder 
 
 You may find it easier to simply copy and paste the solutions in github, rather than moving around the files.
 
